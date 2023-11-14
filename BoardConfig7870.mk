@@ -50,7 +50,7 @@ BOARD_USES_VIRTUAL_DISPLAY_DECON_EXT_WB := false
 # SCALER
 BOARD_USES_SCALER_M2M1SHOT := true
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
-
 # Acryl
 BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_7870
+
+include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
