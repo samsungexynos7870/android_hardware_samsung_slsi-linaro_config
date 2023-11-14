@@ -18,8 +18,6 @@ TARGET_LINUX_KERNEL_VERSION := 3.18
 
 TARGET_SOC_BASE := exynos7870
 
-include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
-
 BOARD_USES_EXYNOS5_COMMON_GRALLOC := true
 BOARD_USES_EXYNOS_GRALLOC_VERSION := 0
 BOARD_USES_ALIGN_RESTRICTION := true
@@ -51,6 +49,8 @@ BOARD_USES_VIRTUAL_DISPLAY_DECON_EXT_WB := false
 
 # SCALER
 BOARD_USES_SCALER_M2M1SHOT := true
+
+include hardware/samsung_slsi-linaro/config/BoardConfigCommon.mk
 
 # Acryl
 BOARD_LIBACRYL_DEFAULT_COMPOSITOR := fimg2d_7870
